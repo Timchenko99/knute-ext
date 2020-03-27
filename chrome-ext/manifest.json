@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "KNUTE Schedule",
+  "version": "0.1",
+  "browser_action":{
+    "default_popup": "./html/initial.html",
+    "default_icon": "./img/knute_logo.png"
+  },
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "permissions":[
+    "storage",
+    "https://jsonplaceholder.typicode.com/todos/1",
+    "http://pavel-test-knute.website/app/schedule/*"
+  ]
+}

@@ -1,0 +1,21 @@
+#main{
+    display: none;
+}
+
+#knute-logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#knute-logo{
+    width: 200px;
+}
+
+#start-btn-wrapper{
+    width: 100%;
+    text-align: center;
+}

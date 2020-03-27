@@ -1,0 +1,131 @@
+#schedule-screen{
+    display: none;
+    height: 100%;
+
+}
+
+.group_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.group_info  h5, .group_info p{
+    margin: 0 !important;
+}
+
+#study_form{
+    opacity: 0.40;
+}
+
+#faculty{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+    
+#schedule::-webkit-scrollbar{
+    display: none;
+}
+
+.schedule_info{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#schedule_type{
+    font-weight: bold;
+    font-size: 16px;    
+    margin: 0 0 17px 0 !important;
+}
+
+.day-btn{
+    clip-path: circle(46%);
+    border-radius: 20px;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 9px;
+    margin: 0 4px;
+}
+
+.day-btn:hover{
+    background-color: rgb(212, 211, 211);
+    cursor: pointer;
+}
+
+/* .day-btn:active{
+    background-color: green;
+    color: white;
+} */
+
+.day-btn.active{
+    background-color: green;
+    color: white;
+}
+
+#schedule{
+    overflow: auto;
+    white-space: nowrap;
+    height: 54%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.lesson-info{
+    text-align: center;
+    padding: 1px 5px;
+    word-wrap: break-word;
+}
+
+.lesson-title{
+    word-wrap: break-word;
+    font-size: 14px;
+
+}
+
+.lesson-title p{
+    word-wrap: break-word;
+
+}
+
+#header-break-line{
+    opacity: 0.09;
+    margin: 0;
+}
+
+.break-time{
+    background-color: rgba(92, 255, 33, 0.28);
+}
+
+.break-line{
+    border-top: dashed 1px;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.break-time div p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 13px;
+    top: 186px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 4px;
+    opacity: 0.6;
+    font-weight: bold;
+
+}
+

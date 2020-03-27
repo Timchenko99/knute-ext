@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/add.css">
+    <title>Add</title>
+</head>
+
+<body>
+    <section class="add-screen">
+
+        <section class="user-input">
+            <section class="user-input-item">
+                <label for="study-form">Форма навчання</label>
+                <select name="study-form" id="study-form">
+                    <option value="denna">Денна</option>
+                    <option value="night">Вечірня</option>
+                    <option value="remote">Заочна</option>
+                </select>
+            </section>
+            <section class="user-input-item">
+                <label for="degree">Освітній ступінь</label>
+                <select name="degree" id="degree">
+                    <option value="bakalavr">Бакалавр</option>
+                    <option value="master">Магістр</option>
+                </select>
+            </section>
+            <section class="user-input-item">
+                <label for="faculty">Факультет</label>
+                <select name="faculty" id="faculty">
+                    <option value="fit">ФІТ</option>
+                    <option value="femp">ФЕМП</option>
+                    <option value="ftm">ФТМ</option>
+                    <option value="frgtb">ФРГТБ</option>
+                    <option value="ffo">ФФО</option>
+                    <option value="fmtp">ФМТП</option>
+                </select>
+            </section>
+            <section class="user-input-item">
+                <label for="speciality">Спеціальність</label>
+                <input type="text" name="speciality" id="speciality" maxlength="20" required>
+            </section>
+            <section class="user-input-item">
+                <label for="year">Курс</label>
+                <select name="year" id="year">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <!-- <option value="5">5</option> -->
+                </select>
+            </section>
+            <section class="user-input-item ui-widget">
+                <label for="group">Група</label>
+
+                <input type="text" name="group" id="group" maxlength="4" required>
+            </section>
+        </section>
+        <section id="submit-wrapper">
+            <button class="flat-btn bg-transparent cl-green" id="submit-btn">Додати</button>
+            <button class="flat-btn bg-transparent" id="back-btn">Відмініти</button>
+
+        </section>
+    </section>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="../js/add.js"></script>
+    <script src="../utils.js"></script>
+</body>
+
+</html>

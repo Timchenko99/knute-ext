@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 320px;
+    height: 400px;
+    min-height: 200px;
+}
+
+body *{
+    display: none;
+}
+
+#knute-header{
+    position: absolute;
+    top: 124px;
+    padding: 0 40px;
+}
+
+#knute-logo-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#knute-title{
+    font-family: ABeeZee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    margin: 0 0 0 10px;
+}
+
+#knute-logo{
+    width: 108.67px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    color: #808080;
+}
+
